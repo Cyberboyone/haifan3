@@ -14,7 +14,7 @@ Future<void> main() async {
 
   try {
     await JustAudioBackground.init(
-      androidNotificationChannelId: 'com.nakudin.malamlawan3.channel.audio',
+      androidNotificationChannelId: 'com.nakudin.haifan3.channel.audio',
       androidNotificationChannelName: 'Audio playback',
       androidNotificationOngoing: true,
     );
@@ -52,7 +52,7 @@ class IslamicAudioApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Malam Lawan Triumph 3',
+      title: 'Haifan Tafsir',
       debugShowCheckedModeBanner: false,
       locale: const Locale('en', 'GB'),
       supportedLocales: const [Locale('en', 'GB')],
