@@ -14,7 +14,7 @@ class MainActivity : AudioServiceActivity() {
         flutterEngine
             .platformViewsController
             .registry
-            .registerViewFactory("malamlawan3_banner_ad", BannerAdFactory(flutterEngine.dartExecutor.binaryMessenger))
+            .registerViewFactory("haifan3_banner_ad", BannerAdFactory(flutterEngine.dartExecutor.binaryMessenger))
 
         MobileAds.setRequestConfiguration(
             RequestConfiguration.Builder()
@@ -22,6 +22,6 @@ class MainActivity : AudioServiceActivity() {
                 .build()
         )
 
-        MobileAds.initialize(this) { Log.d("MalamLawanAds", "AdMob initialized") }
+        MobileAds.initialize(this) { Log.d("HaifanAds", "AdMob initialized") }
     }
 }
