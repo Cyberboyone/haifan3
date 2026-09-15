@@ -27,7 +27,7 @@ dev_dependencies:
 
 flutter_launcher_icons:
   android: true
-  ios: true
+  ios: false
   image_path: "assets/images/scholar_haifan.jpg"
   adaptive_icon_background: "#0D1B2A"
   adaptive_icon_foreground: "assets/images/scholar_haifan.jpg"
